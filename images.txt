@@ -1,4 +1,4 @@
-nginx
-centos:centos8.4.2105
-mysql
-redis
+platform=linux/arm64 nginx
+platform=linux/arm64 centos:centos8.4.2105
+platform=linux/arm64 mysql
+platform=linux/arm64 redis
