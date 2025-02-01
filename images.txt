@@ -1,10 +1,10 @@
---platform=linux/arm64 nginx
---platform=linux/arm64 centos:centos8.4.2105
---platform=linux/arm64 mysql:9.2
---platform=linux/arm64 redis:latest
---platform=linux/arm64 redis:7.4.2
---platform=linux/arm64 php:8.2.27-cli
---platform=linux/arm64 php:8.2.27
+--platform=linux/amd64 nginx
+--platform=linux/amd64 centos:centos8.4.2105
+--platform=linux/amd64 mysql:9.2
+--platform=linux/amd64 redis:latest
+--platform=linux/amd64 redis:7.4.2
+--platform=linux/amd64 php:8.2.27-cli
+--platform=linux/amd64 php:8.2.27
 
 --platform=linux/arm64/v8 nginx
 --platform=linux/arm64/v8 centos:centos8.4.2105
@@ -13,3 +13,6 @@
 --platform=linux/arm64/v8 redis:7.4.2
 --platform=linux/arm64/v8 php:8.2.27-cli
 --platform=linux/arm64/v8 php:8.2.27
+
+
+
