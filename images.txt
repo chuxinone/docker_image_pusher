@@ -1,2 +1,2 @@
--platform=linux/arm64/v8 nginx
--platform=linux/arm64 centos:centos8.4.2105
+--platform=linux/arm64/v8 nginx
+--platform=linux/arm64 centos:centos8.4.2105
