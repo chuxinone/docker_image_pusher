@@ -14,13 +14,15 @@
 #--platform=linux/arm64/v8 php:8.2.27-cli
 #--platform=linux/arm64/v8 php:8.2.27
 
---platform=linux/amd64 postgres:12.22
---platform=linux/arm64/v8 postgres:12.22
+#--platform=linux/amd64 postgres:12.22
+#--platform=linux/arm64/v8 postgres:12.22
 
---platform=linux/amd64 haproxy:3.0.8
---platform=linux/arm64/v8 haproxy:3.0.8
+#--platform=linux/amd64 haproxy:3.0.8
+#--platform=linux/arm64/v8 haproxy:3.0.8
 
 
---platform=linux/amd64 datadog/agent:7-rc-linux
---platform=linux/arm64/v8 datadog/agent:7-rc-linux
+#--platform=linux/amd64 datadog/agent:7-rc-linux
+#--platform=linux/arm64/v8 datadog/agent:7-rc-linux
 
+
+--platform=linux/amd64/v7 mysql
