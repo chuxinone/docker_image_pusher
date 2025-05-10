@@ -25,4 +25,8 @@
 #--platform=linux/arm64/v8 datadog/agent:7-rc-linux
 
 
---platform=linux/amd64/v7 mysql
+#--platform=linux/amd64/v7 mysql
+
+--platform=linux/amd64/v7 emqx:latest
+--platform=linux/amd64 emqx:latest
+
