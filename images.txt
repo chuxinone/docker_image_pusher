@@ -30,6 +30,6 @@
 #--platform=linux/amd64/v7 emqx:latest
 #--platform=linux/amd64 emqx:latest
 
---platform=linux/amd64/v7 bitnami/postgresql:sha256-74db3d575a9c104f7d73e214edccbb9c0754be908c8cecd31562ac7b945ae248
---platform=linux/amd64 bitnami/postgresql:sha256-74db3d575a9c104f7d73e214edccbb9c0754be908c8cecd31562ac7b945ae248
+--platform=linux/amd64/v7 bitnami/postgresql
+--platform=linux/amd64 bitnami/postgresql
 
