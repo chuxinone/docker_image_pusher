@@ -33,3 +33,5 @@
 --platform=linux/amd64/v7 bitnami/postgresql
 --platform=linux/amd64 bitnami/postgresql
 
+--platform=linux/amd64 emqx/mqttx-web
+--platform=linux/amd64/v7 emqx/mqttx-web
